@@ -61,14 +61,7 @@ Note: The 6 commits under Your Name and the 3 commits under THAW TAR HTET SAN bo
    Committing (`git commit`) saves a staged snapshot of changes locally on your machine, while pushing (`git push`) uploads those local commits to the remote GitHub repository for teammates to access.
 
 4. **How do fixtures reduce duplicated setup code in tests?**  
-<<<<<<< HEAD
 
    Fixtures establish a shared, reusable baseline (such as an initialized account) that can be automatically passed to multiple test functions without repeatedly re-instantiating objects in every test file.
 
 
-
-
-     
-=======
-   Fixtures establish a shared, reusable baseline (such as an initialized account) that can be automatically passed to multiple test functions without repeatedly re-instantiating objects in every test file.
->>>>>>> c07b871f99f4496bccc441eb2affbaa380275851
