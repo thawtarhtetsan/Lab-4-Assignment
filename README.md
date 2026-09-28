@@ -5,7 +5,7 @@
 | Member | Student ID | GitHub Username | Task |
 |---|---|---|---|
 | Member A | Thaw Tar Htet San | thawtarhtetsan | `bank.py`, `.gitignore`, `test_deposit.py`, Repo Setup |
-| Member B | Muskan kKumari | 6805140040-png | `test_withdraw.py` |
+| Member B | Muskan Kumari | 6805140040-png | `test_withdraw.py` |
 | Member C | Sabai Phyu | 6805140053-oss | `test_teardown.py` |
 | Member D | Phyu Phyu Phyo Lwin | 6805140027-cmyk  | `test_shared.py` |
 | Member E | Saung Lay Pyay | saung216 | `conftest.py |
@@ -61,6 +61,7 @@ Note: The 6 commits under Your Name and the 3 commits under THAW TAR HTET SAN bo
    Committing (`git commit`) saves a staged snapshot of changes locally on your machine, while pushing (`git push`) uploads those local commits to the remote GitHub repository for teammates to access.
 
 4. **How do fixtures reduce duplicated setup code in tests?**  
+<<<<<<< HEAD
 
    Fixtures establish a shared, reusable baseline (such as an initialized account) that can be automatically passed to multiple test functions without repeatedly re-instantiating objects in every test file.
 
@@ -68,3 +69,6 @@ Note: The 6 commits under Your Name and the 3 commits under THAW TAR HTET SAN bo
 
 
      
+=======
+   Fixtures establish a shared, reusable baseline (such as an initialized account) that can be automatically passed to multiple test functions without repeatedly re-instantiating objects in every test file.
+>>>>>>> c07b871f99f4496bccc441eb2affbaa380275851
