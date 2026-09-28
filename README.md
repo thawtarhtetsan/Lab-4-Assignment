@@ -43,3 +43,17 @@ Git can automatically combine changes made to different files or different lines
      1  6805140053-oss
 
 > **Note:** The 6 commits under `Your Name` and the 3 commits under `THAW TAR HTET SAN` both belong to Member A (Thaw Tar Htet San / `thawtarhtetsan`). The initial 6 commits were recorded before updating the local Git configuration.
+
+## 5. Reflection Questions
+
+1. **Why was your push rejected, and how did you fix it?**  
+   The push was rejected because teammates pushed commits to GitHub that did not exist on our local machine yet. We resolved it by running `git pull` to fetch and integrate the remote changes before pushing again.
+
+2. **Why could Git not resolve the README conflict automatically?**  
+   Git cannot automatically resolve conflicts when multiple collaborators modify the exact same lines of code or text concurrently. Because Git cannot deduce developer intent, it pauses the merge to require human intervention.
+
+3. **What is the difference between committing and pushing?**  
+   Committing (`git commit`) saves a staged snapshot of changes locally on your machine, while pushing (`git push`) uploads those local commits to the remote GitHub repository for teammates to access.
+
+4. **How do fixtures reduce duplicated setup code in tests?**  
+   Fixtures establish a shared, reusable baseline (such as an initialized account) that can be automatically passed to multiple test functions without repeatedly re-instantiating objects in every test file.
