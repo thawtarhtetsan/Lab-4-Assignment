@@ -8,4 +8,4 @@
 | Member B | Muskan kKumari | 6805140040-png | `test_withdraw.py` |
 | Member C | Sabai Phyu | 6805140053-oss | `test_teardown.py` |
 | Member D | Phyu Phyu Phyo Lwin | 6805140027-cmyk  | `test_shared.py` |
-| Member E | Saung Lay Pyay | saung216 | `conftest.py` — created the `funded_account` fixture |
+| Member E | Saung Lay Pyay | saung216 | `conftest.py |
